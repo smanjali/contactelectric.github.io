@@ -24,3 +24,44 @@ p {
     margin-top: 10px;
     font-size: 1.2em;
 }
+
+.top-page-image {
+    background-image: url("logo/logo_Contact-Electric-long.jpg");
+    height: 65px;
+    width: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    position: relative;
+}
+
+
+.sidenav {
+    width: 0; /* changes in JavaScript */
+    position : fixed; 
+    z-index: 1; /* Stay in front of logo*/
+    background-color: #333;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the menu */
+}
+
+/* Menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #f9f96b;
+    display: block;
+    transition: 0.3s;
+}
+
+/* menu buttn itself */
+.menu-toggle {
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+    top: 10px;
+    left: 10px;
+}
