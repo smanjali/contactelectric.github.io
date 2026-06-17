@@ -15,19 +15,12 @@ h2.contact-us {
     color: #f9f96b;
     text-align: center;
     margin-top: 20px;
-    font-size: 1.5em;
-}
-
-p {
-    background-color: white;
-    text-align: center;
-    margin-top: 10px;
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 .top-page-image {
     background-image: url("logo/logo_Contact-Electric-long.jpg");
-    height: 65px;
+    height: auto;
     width: 100%;
 
     background-position: center;
@@ -37,7 +30,6 @@ p {
     position: relative;
 }
 
-
 .sidenav {
     width: 0; /* changes in JavaScript */
     position : fixed; 
@@ -45,6 +37,15 @@ p {
     background-color: #333;
     overflow-x: hidden; /* Disable horizontal scroll */
     transition: 0.5s; /* 0.5 second transition effect to slide in the menu */
+}
+
+.sidenav .exit-buttn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    color: white;
 }
 
 /* Menu links */
@@ -61,7 +62,43 @@ p {
 .menu-toggle {
     font-size: 20px;
     cursor: pointer;
-    color: white;
+    color: black;
     top: 10px;
     left: 10px;
+    background-color: transparent;
+    border: none;
+}
+
+.menu-toggle:hover {
+    color: #626255;
+}
+
+.main-content {
+    transition: margin-left .5s;
+    padding: 20px;
+    background-color: white;
+    text-align: left;
+}
+
+.request-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #ff3300;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+h2 {
+    color: #f9f96b;
+    text-align: center;
+}
+
+.request-button:hover {
+    background-color: #fff587;
+    font-weight: bold;
+    color: black;
 }
