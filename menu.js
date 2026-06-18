@@ -5,3 +5,5 @@ function openMenu() {
 function closeMenu() {
     document.getElementById("mySidenav").style.width = "0";
 }
+
+console.log(document.getElementById("current-year").textContent = new Date().getFullYear());

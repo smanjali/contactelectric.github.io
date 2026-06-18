@@ -11,7 +11,7 @@ h1{
     margin-top: 50px;
 }
 
-h2.contact-us {
+.contact-us {
     color: #f9f96b;
     text-align: center;
     margin-top: 20px;
@@ -72,6 +72,7 @@ h2.contact-us {
 .menu-toggle:hover {
     color: #626255;
 }
+/*---------------Main Content------------------------*/
 
 .main-content {
     transition: margin-left .5s;
@@ -80,9 +81,10 @@ h2.contact-us {
     text-align: left;
 }
 
+/*------------------Footer------------------------- */
 .request-button {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 10px;
     font-size: 16px;
     color: white;
     background-color: #ff3300;
@@ -92,7 +94,7 @@ h2.contact-us {
     text-decoration: none;
 }
 
-h2 {
+.motivations {
     color: #f9f96b;
     text-align: center;
 }
@@ -102,3 +104,29 @@ h2 {
     font-weight: bold;
     color: black;
 }
+
+footer {
+    background-color: black;
+    color: #7c7979;
+    text-align: center;
+    font-size: 0.8em;
+    width: 100%;
+    bottom: 0;
+}
+
+.company-info {
+    margin-top: 20px;
+    display: flex;
+    color: white;
+}  
+
+.dark-logo {
+    width: 150px;
+    height: auto;
+}
+
+footer a {
+    color: #f9f96b;
+    text-decoration: none;
+}
+/*------------------------------*/
