@@ -81,6 +81,64 @@ h1{
     text-align: left;
 }
 
+/*---------------About Content------------------------*/
+
+.about-content {
+    transition: margin-left .5s;
+    padding: 20px;
+    background-color: white;
+    text-align: left;
+}
+aside {
+  width: 30%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  font-style: italic;
+  background-color: lightgray;
+}
+.legality {
+    color: #f9f96b;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1em;
+}
+
+.collapser {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+.active, .collapser:hover {
+    background-color: red;
+}
+
+.collapser:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: white;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  transition: max-height 0.2s ease-out;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
 /*------------------Footer------------------------- */
 .request-button {
     display: inline-block;
