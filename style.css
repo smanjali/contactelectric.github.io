@@ -20,7 +20,7 @@ h1{
 
 .top-page-image {
     background-image: url("logo/logo_Contact-Electric-long.jpg");
-    height: auto;
+    height: 70px;
     width: 100%;
 
     background-position: center;
@@ -63,7 +63,7 @@ h1{
     font-size: 20px;
     cursor: pointer;
     color: black;
-    top: 10px;
+    padding-top: 21px;
     left: 10px;
     background-color: transparent;
     border: none;
@@ -120,23 +120,24 @@ aside {
 }
 
 .collapser:after {
-  content: '\02795'; /* Unicode character for "plus" sign (+) */
-  font-size: 13px;
-  color: white;
-  float: right;
-  margin-left: 5px;
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: white;
+    float: right;
+    margin-left: 5px;
 }
 
 .active:after {
-  content: "\2796"; /* Unicode character for "minus" sign (-) */
+     content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
 
 .content {
-  padding: 0 18px;
-  max-height: 0;
-  transition: max-height 0.2s ease-out;
-  overflow: hidden;
-  background-color: #f1f1f1;
+    color: black;
+    padding: 0 18px;
+    max-height: 0;
+    transition: max-height 0.2s ease-out;
+    overflow: hidden;
+    background-color: #f1f1f1;
 }
 
 /*------------------Footer------------------------- */
