@@ -140,6 +140,14 @@ aside {
     background-color: #f1f1f1;
 }
 
+.about-extra {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: white;
+}
+
 /*------------------Footer------------------------- */
 .request-button {
     display: inline-block;
