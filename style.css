@@ -20,7 +20,7 @@ h1{
 
 .top-page-image {
     background-image: url("logo/logo_Contact-Electric-long.jpg");
-    height: 70px;
+    height: 80px;
     width: 100%;
 
     background-position: center;
@@ -63,7 +63,7 @@ h1{
     font-size: 20px;
     cursor: pointer;
     color: black;
-    padding-top: 21px;
+    padding-top: 26px;
     left: 10px;
     background-color: transparent;
     border: none;
