@@ -5,6 +5,8 @@ body {
     padding: 0;
 }
 
+/*------------Header------------------*/
+
 h1{
     color: #f9f96b;
     text-align: center;
@@ -16,6 +18,11 @@ h1{
     text-align: center;
     margin-top: 20px;
     font-size: 1em;
+}
+
+.page-title {
+    background-color: white;
+
 }
 
 .top-page-image {
@@ -147,6 +154,34 @@ aside {
     padding: 20px;
     background-color: white;
 }
+
+/*-----------------Service Content-----------------------*/
+
+.service-content {
+    display: flex;
+    flex-direction: row;
+}
+.services {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    transition: margin-left .5s;
+    padding: 20px;
+    background-color: black;
+    text-align: left;
+}
+
+.services div {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.reviews {
+    background-color: white;
+}
+
 
 /*------------------Footer------------------------- */
 .request-button {
